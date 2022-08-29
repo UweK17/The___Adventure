@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import promptSync from "prompt-sync";
 const prompt = promptSync({ eot: true }); // Strg. + D
 import chalk from "chalk";

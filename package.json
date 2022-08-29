@@ -1,7 +1,7 @@
 {
   "type": "module",
-  "name": "group-pj",
-  "version": "1.0.0",
+  "name": "theblankadventure",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,18 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Burak5796/Group-PJ.git"
+    "url": "git+https://github.com/UweK17/The___Adventure.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Burak5796/Group-PJ/issues"
+    "url": "https://github.com/UweK17/The___Adventure.git.issues"
   },
-  "homepage": "https://github.com/Burak5796/Group-PJ#readme",
+  "homepage": "https://github.com/UweK17/The___Adventure.git#readme",
   "dependencies": {
     "chalk": "^5.0.1",
     "enquirer": "^2.3.6",
     "prompt-sync": "^4.2.0"
+  },
+  "bin": {
+    "projectadventure": "./index.js"
   }
 }
